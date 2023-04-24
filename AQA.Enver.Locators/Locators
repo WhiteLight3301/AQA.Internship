@@ -1,0 +1,43 @@
+### Task 1 ### 
+Header
+1.	//h1[1] Поскольку элемент с тегом h1 уникален, то индекс не совсем корректен в данном локаторе.Кроме того индексация крайне не рекомендованна к использованию.
+<2> Выбор 	//h1[@class='header__title'] Наиболее выигрышный вариант  относительно тяжести синтаксиса и уникальности.
+3.	//*[@class='header__title']  Wildcard  в данном случае не имеет преимущества относительно динамических тегов так как фундаментальный тег h1 частым изменениям не подвергается.
+4.	//div[@class='aviasales-app']//*[@class='header__title'] Данный локатор ошибочный и не находит нужного 
+обьекта. Кроме того, локатор чрезмерно громоздкий.
+
+Tickets search button
+<1> Выбор	//button[contains(@class,'form-submit')] Данный локатор является локатором нужного обьекта.
+2.	//div[@class="avia-form__submit"] Данный локатор не является локатором конкретно кнопки.
+
+Complex route link/button
+1.	//a[@href="#multiway"] Данный локатор с аттрибутом href подвержен изменениям и является менее стабильным нежели дата тест
+<2> Выбор //a[@data-test-id="multiway-link"] data test id более стабильный и менее подвержен изменению в отличии от href.
+3.	//div[@class="avia-form__footer"] Данный локатор не является локатором конкретно кнопки/ссылки нужного обьекта
+
+### Task 2 ###
+
+Element 1 Hotel search button
+//a[@data-goal='hotelTab']
+
+Element 2 Currency exchange button
+//button[@class="q8JaLokdctjkb1_n4aw0"]
+
+Element 3 Logo 
+//*[contains(@class,'aviasalesSign')]
+
+Element 4 Direction change button
+//div[@data-test-id="swap-places"]
+
+Element 5 Profile logo
+svg.icon_0ce8f7f
+
+Element 6 Profile button
+//button[@data-test-id="profile-button"]
+
+Element 7 Relevant date
+//div[@class="calendar-day --selected --bounded"]
+
+Element 8 Random date
+Выбрал 25 января
+//div[contains(text(),25)]
