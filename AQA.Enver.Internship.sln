@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AQA.Enver.Internship.BDDTDD", "AQA.Enver.Internship.BDDTDD\AQA.Enver.Internship.BDDTDD.csproj", "{F50EA588-C590-496C-9DDE-8EC936C41316}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AQA.Enver.Internship.Locators", "AQA.Enver.Internship.Locators\AQA.Enver.Internship.Locators.csproj", "{0322620D-24CC-4FFC-9EB1-C6FA68E043AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AQA.Enver.Internship.NUnit", "AQA.Enver.Internship.NUnit\AQA.Enver.Internship.NUnit.csproj", "{209080BC-8E77-4D7F-8F29-D1F493CED81F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AQA.Enver.Internship.PageObjectPattern", "AQA.Enver.Internship.PageObjectPattern\AQA.Enver.Internship.PageObjectPattern.csproj", "{BF7E3648-79A8-40F5-BE20-81CD38A826D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F50EA588-C590-496C-9DDE-8EC936C41316}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F50EA588-C590-496C-9DDE-8EC936C41316}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F50EA588-C590-496C-9DDE-8EC936C41316}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F50EA588-C590-496C-9DDE-8EC936C41316}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0322620D-24CC-4FFC-9EB1-C6FA68E043AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0322620D-24CC-4FFC-9EB1-C6FA68E043AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0322620D-24CC-4FFC-9EB1-C6FA68E043AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0322620D-24CC-4FFC-9EB1-C6FA68E043AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{209080BC-8E77-4D7F-8F29-D1F493CED81F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{209080BC-8E77-4D7F-8F29-D1F493CED81F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{209080BC-8E77-4D7F-8F29-D1F493CED81F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{209080BC-8E77-4D7F-8F29-D1F493CED81F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF7E3648-79A8-40F5-BE20-81CD38A826D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF7E3648-79A8-40F5-BE20-81CD38A826D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF7E3648-79A8-40F5-BE20-81CD38A826D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF7E3648-79A8-40F5-BE20-81CD38A826D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
