@@ -1,0 +1,5 @@
+{
+  "BrowserType": "edge",
+  "AuthorizationPageText": "Congratulations! You must have the proper credentials.",
+  "FileUploadedText": "File Uploaded!"
+}
